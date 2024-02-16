@@ -1,0 +1,4 @@
+.idea
+node_modules/**/*
+../App/MovieApp/src/package-lock.json
+build

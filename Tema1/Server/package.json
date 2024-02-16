@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "ilazar",
+  "license": "",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "jsonwebtoken": "9.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "^0.0.16",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^7.4.0",
+    "nedb-promise": "^2.0.1",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 7.6"
+  }
+}
